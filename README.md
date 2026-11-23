@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# MediCare – Healthcare Website
+
+A modern, responsive healthcare website built with Next.js, React, TypeScript, and Tailwind CSS.
+
+MediCare is a healthcare website concept that allows users to explore doctors, search by specialty, view individual doctor profiles, and interact with a demo appointment booking system.
+
+## Features
+
+- Responsive design for desktop and mobile devices
+- Doctor directory with search functionality
+- Filter doctors by medical specialty
+- Individual doctor profile pages
+- Doctor-specific appointment schedules
+- Date and time slot selection
+- Availability validation
+- Restriction of past appointment times
+- Interactive contact form
+- Mobile-friendly navigation
+- Modern healthcare-inspired UI
+
+## Pages
+
+- **Home** – Healthcare landing page with services and contact section
+- **Doctors** – Browse, search, and filter doctors
+- **Doctor Profiles** – View doctor information and specialties
+- **Appointment Booking** – Select available dates and time slots
+- **Contact** – Interactive demo contact form
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- HTML
+- CSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/smyalahd/medicare.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd medicare
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Demo Information
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is a portfolio demonstration.
 
-## Learn More
+- Doctor profiles contain fictional demo information.
+- Appointments are not real bookings.
+- Contact form messages are not sent or stored.
+- No backend or database is connected yet.
 
-To learn more about Next.js, take a look at the following resources:
+## Future Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Backend and database integration
+- Persistent appointment bookings
+- User authentication
+- Real-time appointment availability
+- Admin dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed as a personal portfolio project.

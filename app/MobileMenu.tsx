@@ -18,10 +18,26 @@ export default function MobileMenu() {
 
           <Link
             href="/doctors"
-            className="rounded-full bg-[#087f73] px-5 py-3 text-center text-white"
+            className="rounded-full bg-[#087f73] px-5 py-3 text-center text-white transition hover:bg-[#066b61]"
           >
             Find a Doctor →
           </Link>
+
+          <div className="border-t border-[#e3ece8] pt-5 flex flex-col gap-3">
+            <Link
+              href="/login"
+              className="rounded-full border border-[#dce9e4] bg-white px-5 py-3 text-center text-[#31584d] transition hover:bg-[#f0f1e9]"
+            >
+              Log in
+            </Link>
+
+            <Link
+              href="/signup"
+              className="rounded-full bg-[#174e43] px-5 py-3 text-center text-white transition hover:bg-[#103d34]"
+            >
+              Sign up ↗
+            </Link>
+          </div>
         </div>
       </nav>
     </details>
